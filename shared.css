@@ -1,0 +1,145 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+body{
+  background-color: darkred;
+  width: 98%;
+  height: 100%;
+  place-self: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+#cat_slideshow_1{
+  width: 21%;
+  height: 23%;
+  position: fixed;
+  top: 4%;
+  left: 75%;
+  display: none;
+  z-index: 20;
+}
+
+#cat_slideshow_2{
+  width: 21%;
+  height: 23%;
+  position: fixed;
+  top: 4%;
+  left: 75%;
+  display: none;
+  z-index: 20;
+}
+
+#cat_slideshow_3{
+  width: 21%;
+  height: 23%;
+  position: fixed;
+  top: 4%;
+  left: 75%;
+  display: none;
+  z-index: 20;
+}
+
+#dropdown{
+  width: 15%;
+  height: 100%;
+  background-color: black;
+  display: none;
+  position: absolute;
+  left: 80%;
+  top: 23%;
+  z-index: 18;
+}
+
+#background{
+  width: 17%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  left: 79%;
+  top: 19.5%;
+  animation: background_animation 5s infinite;
+  z-index: 17;
+}
+
+@keyframes background_animation{
+  0%{background-color: blue;}
+  33%{background-color: green;}
+  66%{background-color: yellow;}
+  100%{background-color: blue;}
+}
+
+#kill_me{
+  color: red;
+  position: relative;
+  background-color: black;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+#helpme{
+  position: relative;
+  margin-top: 3%;
+  top: 14%;}
+
+#cult_1_screen{
+  color: red;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  height: 8%;
+  background-color: lightgray;
+  font-size: 20px;
+  top: 5%;
+}
+
+#cult_2_screen{
+  color: red;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 8%;
+  background-color: lightgray;
+  font-size: 20px;
+  top: 32%;
+  top: 18%;
+}
+
+#conclusion_btn{
+  color: red;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 8%;
+  background-color: lightgray;
+  font-size: 20px;
+  top: 31.5%;
+}
+
+#home_btn{
+  color: red;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  height: 5%;
+  background-color: lightgray;
+  font-size: 20px;
+  top: 50%;
+}
+
+#glitched_cat{
+  position: absolute;
+  top: -30%;
+  width: 100%;
+  height: 130%;
+  opacity: 0;
+}
+@keyframes glitched_cat_animation{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}

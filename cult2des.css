@@ -1,0 +1,134 @@
+#title_cult{
+  width: 100%;
+  animation: in_out_colors 50s infinite;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: absolute;
+  place-self: center;
+  text-indent: 3%;
+  top: 0%;
+}
+
+#subtitle_cult{
+  width: 100%;
+  animation: in_out_colors 50s infinite;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: relative;
+  place-self: center;
+  text-indent: 3%;
+  top: 2.5%;
+}
+
+#how_btn{
+  width: 25%;
+  position: absolute;
+  margin-top: 1%;
+  left: 4%;
+  font-size: 17px;
+  z-index: 16;
+}
+.cults_2_p{
+  width: 60%;
+  position: absolute;
+  margin-top: 3%;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  left: 20%;
+  display: none;
+  font-size: 18px;
+  z-index: 5;
+  color:rgb(200, 255, 236);
+}
+#how{
+  top: 25%;
+}
+#how2{
+  top: 35%;
+}
+#how3{
+  top: 50%;
+}
+#how4{
+  top: 65%;
+}
+#how5{
+  top: 80%;
+}
+
+#other_cults_btn{
+  width: 25%;
+  position: absolute;
+  left: 37.5%;
+  margin-top: 1%;
+  font-size: 17px;
+  z-index: 16;
+}
+
+#other_cults{
+  top: 25%;
+}
+
+#other_cults2{
+  top: 35%;
+}
+#other_cults3{
+  top: 50%;
+}
+
+#other_cults4{
+  top: 70%;
+}
+
+#other_cults5{
+  top: 80%;
+}
+
+#conformityy_btn{
+  width: 25%;
+  position: absolute;
+  right: 4%;
+  margin-top: 1%;
+  font-size: 17px;
+  z-index: 16;
+}
+
+#conformityy{
+  top: 25%;
+}
+
+#conformityy2{
+  top: 35%;
+}
+#conformityy3{
+  top: 50%;
+}
+
+#conformityy4{
+  top: 70%;
+}
+
+#conformityy5{
+  top: 80%;
+}
+
+
+@keyframes in_out_colors{
+  7.1%{background-color: red; opacity: 100%;}
+  14.2%{background-color: orange; opacity: 30%;}
+  21.3%{background-color: orange; opacity: 100%;}
+  28.4%{background-color: yellow; opacity: 30%;}
+  35.5%{background-color: yellow; opacity: 100%;}
+  42.6%{background-color: green; opacity: 30%;}
+  49.7%{background-color: green; opacity: 100%;}
+  56.8%{background-color: blue; opacity: 30%;}
+  63.9%{background-color: blue; opacity: 100%;}
+  71%{background-color: purple; opacity: 30%;}
+  77.1%{background-color: purple; opacity: 100%;}
+  84.2%{background-color: pink; opacity: 30%;}
+  91.3%{background-color: pink; opacity: 100%;}
+  98.4%{background-color: red; opacity: 30%;}
+}

@@ -1,0 +1,205 @@
+#title_cult{
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: absolute;
+  place-self: center;
+  text-indent: 3%;
+  top: 0%;
+  animation: in_out_colors 30s infinite;
+}
+
+#subtitle_cult{
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: relative;
+  place-self: center;
+  text-indent: 3%;
+  top: 2.5%;
+  animation: in_out_colors 30s infinite;
+}
+
+#cults_2_p{
+  display: none;
+  
+}
+
+#sources{
+  color: red;
+}
+
+#sources_list{
+  color: black;
+  display: none;
+}
+
+#summary{
+  height: 80%;
+  left: 35%;
+  position: absolute;
+  top: 20%;
+}
+
+#first_img{
+  display: none;
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  left: 90%;
+  top: 65%;
+  z-index: 18;
+}
+#second_img{
+  display: none;
+  width: 45%;
+  height: 40%;
+  left: 50%;
+  position: absolute;
+  z-index: 15;
+}
+#third_img{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  left: 0%;
+  top: 5%;
+  z-index: 19;
+}
+#fourth_img{
+  display: none;
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+#fifth_img{
+  display: none;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  left: 23%;
+  top: 60%;
+}
+#six_image{
+  display: none;
+  size: 80%;
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  
+}
+#seven_img{
+  display: none;
+  width: 50%;
+  height: 45%;
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  z-index: 16;
+}
+
+#eight_img{
+  display: none;
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  left: 0%;
+  top: 60%;
+  z-index: 13;
+}
+#nine_img{
+  display: none;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  left: 75%;
+  top: 70%;
+  z-index: 17;
+}
+#ten_img{
+  display: none;
+  size: 80%;
+}
+#eleven_img{
+  display: none;
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  left: 23%;
+  top: 60%;
+}
+#twelve_img{
+  display: none;
+  size: 80%;
+}
+#thirteen_img{
+  display: none;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+}
+#fourteen_img{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 8%;
+  width: 10%;
+  height: 17%;
+  z-index: 14;
+}
+#fifteen_img{
+  display: none;
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  left: 55%;
+  top: 15%;
+}
+
+@keyframes fadein{
+  0%{opacity: 0;}
+  50%{opacity: 50%;}
+  100%{opacity: 100%}
+}
+
+@keyframes fadeout{
+  0%{opacity: 100%}
+  50%{opacity: 50%;}
+  100%{opacity: 0;}
+}
+
+@keyframes glitch_in{
+  0%{opacity: 0}
+  15%{opacity: 5%;}
+  20%{opacity: 10%; left: 29%;}
+  30%{opacity: 15%; left: 30%;}
+  40%{opacity: 20%; left: 31%;}
+  100%{opacity: 100%; left: 30%;}
+}
+
+@keyframes jumpscare{
+  0%{opacity: 0;}
+  9%{opacity: 0;}
+  10%{opacity: 100%;}
+  11%{opacity: 0;}
+  20%{opacity: 10%;}
+  22%{opacity: 0;}
+  23%{opacity: 100%;}
+  24%{opacity: 0;}
+  100%{opacity: 100%;}
+}
+
+@keyframes in_out_colors{
+  16.7%{background-color: red; opacity: 100%;}
+  33.4%{background-color: orange; opacity: 30%;}
+  50.1%{background-color: orange; opacity: 100%;}
+  66.8%{background-color: yellow; opacity: 30%;}
+  83.5%{background-color: yellow; opacity: 100%;}
+  100%{background-color: red; opacity: 30%;}
+}

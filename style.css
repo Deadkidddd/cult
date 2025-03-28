@@ -1,0 +1,257 @@
+#title_cult{
+  width: 100%;
+  background-color: floralwhite;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: absolute;
+  place-self: center;
+  text-indent: 3%;
+  top: 0%;
+  z-index: 0;
+}
+
+#presentation_name{
+  width: 100%;
+  background-color: floralwhite;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: relative;
+  place-self: center;
+  text-indent: 3%;
+  top: 8.5%;
+  z-index: 0;
+}
+
+#def_cult{
+  font-size: 25px;
+  position: relative;
+  animation: change_background_color 10s infinite;
+  opacity: 70%;
+  z-index: 0;
+}
+
+#list{
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  animation: change_background_color 10s infinite;
+  opacity: 70%;
+  top: 1.5%;
+}
+
+.cults{
+  position: absolute;
+  top: 5%;
+}
+
+#childhood_btn{
+  width: 25%;
+  position: absolute;
+  margin-top: 1%;
+  left: 4%;
+  font-size: 17px;
+  z-index: 16;
+}
+.childhood{
+  width: 60%;
+  position: absolute;
+  margin-top: 3%;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  left: 20%;
+  font-size: 18px;
+  display: none;
+  z-index: 5;
+  color:rgb(200, 255, 236);
+}
+#childhood1{
+  top: 25%;
+}
+#childhood2{
+  top: 35%;
+}
+#childhood3{
+  top: 50%;
+}
+#childhood4{
+  top: 65%;
+}
+#childhood5{
+  top: 80%;
+}
+
+#the_cult_btn{
+  width: 25%;
+  position: absolute;
+  left: 37.5%;
+  margin-top: 1%;
+  font-size: 17px;
+  z-index: 16;
+}
+.cult1{
+  width: 60%;
+  position: absolute;
+  margin-top: 3%;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  left: 20%;
+  font-size: 18px;
+  display: none;
+  z-index: 5;
+  color:rgb(200, 255, 236);
+}
+
+#the_cult{
+  top: 35%;
+}
+
+#the_cult1{
+  top: 45%;
+}
+#the_cult2{
+  top: 53%;
+}
+
+#the_cult3{
+  top: 70%;
+}
+
+#the_cult4{
+  top: 80%;
+}
+
+
+#why_cult_btn{
+  width: 25%;
+  position: absolute;
+  right: 4%;
+  margin-top: 1%;
+  font-size: 17px;
+  z-index: 16;
+}
+
+.whyy{
+  width: 60%;
+  position: absolute;
+  margin-top: 3%;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  left: 20%;
+  font-size: 18px;
+  z-index: 5;
+  color:rgb(200, 255, 236);
+  top: 30%;
+  display: none;
+}
+#why_cult{
+  top: 30%;
+}
+#why_cult2{
+  top: 40%;
+}
+#why_cult3{
+  top: 50%;
+}
+#why_cult4{
+  top: 55%;
+}
+#why_cult5{
+  top: 65%;
+}
+#why_cult6{
+  top: 75%;
+}
+
+#to_conformity{
+  top: 50%;
+  display: none;
+  position: absolute;
+  z-index: 16;
+  left: 4%;
+  font-size: 17px;
+  width: 10%;
+}
+
+.basic{
+  width: 60%;
+  position: absolute;
+  margin-top: 3%;
+  text-align: center;
+  word-spacing: 2px;
+  left: 20%;
+  z-index: 5;
+  color:rgb(200, 255, 236);
+}
+#basic_info{
+  top: 30%;
+  font-size: 70px;
+  letter-spacing: 2px;;
+}
+#basic_info2{
+  top: 54%;
+  font-size: 30px;
+}
+#basic_info3{
+  top: 58%;
+  font-size: 30px;
+}
+#basic_info4{
+  top: 27%;
+  font-size: 15px;
+}
+
+.im_dying{
+  position: absolute;
+  left: 3%;
+  top: 45%;
+  opacity: 60%;
+}
+
+#doggy{
+  width: 37%;
+  height: 45%;
+}
+#anotherone{
+  width: 37%;
+  height: 45%;
+}
+#thatonepsychopathlook{
+  width: 37%;
+  height: 45%;
+}
+#hi{
+  width: 37%;
+  height: 45%;
+}
+#fashionista{
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  left: 75%;
+  top: 44%;
+}
+
+@keyframes change_background_color{
+  0%{background-color: purple;}
+  25%{background-color: blue;}
+  50%{background-color: pink;}
+  75%{background-color: gray;}
+  100%{background-color: purple;}
+}
+
+@keyframes fadeout{
+  0%{opacity: 60%}
+  50%{opacity: 40%;}
+  100%{opacity: 0;}
+}
+
+@keyframes fadein{
+  0%{opacity: 0;}
+  50%{opacity: 40%;}
+  100%{opacity: 60%}
+}
