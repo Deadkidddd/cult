@@ -307,7 +307,6 @@ function show2() {
   }
   else{
     hideSec3();
-    document.getElementById("to_conformity").style.display = "none";
     showBasic();
   }
 }
