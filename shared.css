@@ -9,7 +9,7 @@ body{
   height: 100%;
   place-self: center;
   position: sticky;
-  top: 0%;
+  top: -10%;
   left: 0%;
   right: 0%;
 }
