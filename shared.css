@@ -8,8 +8,8 @@ body{
   width: 98%;
   height: 100%;
   place-self: center;
-  position: sticky;
-  top: -10%;
+  position: absolute;
+  top: 0%;
   left: 0%;
   right: 0%;
 }
