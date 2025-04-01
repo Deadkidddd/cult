@@ -9,9 +9,7 @@ let glitched_cat = document.getElementById("glitched_cat");
 let body_glitch = document.getElementById("body");
 
 function glitch(){
-  if(glitched_cat) {
-    glitched_cat.style.animation = "glitched_cat_animation 1s infinite";
-  };
+  glitched_cat.style.animation = "glitched_cat_animation 1s infinite";
 }
 
 //buttons for screen switches
