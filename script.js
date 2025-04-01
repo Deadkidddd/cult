@@ -276,7 +276,7 @@ function evenOrOdd() {
 //Shows section number 1, page 1 under certain conditions
 function show() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     hideBasic();
     showSec1();
   }
@@ -288,7 +288,7 @@ function show() {
 //shows section number 2, page 1 under certain conditions
 function show1() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     hideBasic();
     showSec2();
   }
@@ -300,7 +300,7 @@ function show1() {
 //shows section number 3, page 1 under certain conditions
 function show2() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     hideBasic();
     showSec3();
     document.getElementById("to_conformity").style.display = "block";
@@ -314,7 +314,7 @@ function show2() {
 //Shows section number 1, page 2 under certain conditions
 function show3() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec4();
     showImgs1();
   }
@@ -326,7 +326,7 @@ function show3() {
 //shows section number 2, page 2 under certain conditions
 function show4() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec5();
     showImgs2();
   }
@@ -338,7 +338,7 @@ function show4() {
 //shows section number 3, page 2 under certain conditions
 function show5() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec6();
     showImgs3();
   }
@@ -351,7 +351,7 @@ function show5() {
 //Shows section number 1, page 3 under certain conditions
 function show6() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec7();
   }
   else{
@@ -361,7 +361,7 @@ function show6() {
 //shows section number 2, page 3 under certain conditions
 function show7() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec8();
   }
   else{
@@ -371,7 +371,7 @@ function show7() {
 //shows section number 3, page 3 under certain conditions
 function show8() {
   evenOrOdd();
-  if (numberType === 'even') {
+  if (numberType === 'odd') {
     showSec9();
   }
   else{
