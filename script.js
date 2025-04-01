@@ -4,6 +4,16 @@ document.getElementById("cult_2_screen").innerHTML = "Information";
 document.getElementById("home_btn").innerHTML = "Home";
 document.getElementById("conclusion_btn").innerHTML = "Conclusion";
 
+//transition between screens animation
+let glitched_cat = document.getElementById("glitched_cat");
+let body_glitch = document.getElementById("body");
+
+function glitch(){
+  if(glitched_cat) {
+    glitched_cat.style.animation = "glitched_cat_animation 1s infinite";
+  };
+}
+
 //buttons for screen switches
 document.getElementById("conclusion_btn").onclick = function(){
   glitch();
@@ -24,16 +34,7 @@ document.getElementById("cult_2_screen").onclick = function(){
   glitch();
   setTimeout(function() { window.location.href = "cult2description.html"; }, 1000);
 }
-
-//transition between screens animation
-let glitched_cat = document.getElementById("glitched_cat");
-let body_glitch = document.getElementById("body");
-
-function glitch(){
-  if(glitched_cat) {
-    glitched_cat.style.animation = "glitched_cat_animation 1s infinite";
-  };
-}
+  
 
 //slideshow
 let slideIndex = 0;
