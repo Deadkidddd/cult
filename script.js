@@ -359,6 +359,11 @@ function show6() {
   }
   else{
     hideSec7();
+    die.style.width = "60%";
+    die.style.height = "70%";
+    die.style.left = "40%";
+    die.style.top = "40%";
+    die.style.opacity = "100%";
   }
 }
 //shows section number 2, page 3 under certain conditions
