@@ -361,8 +361,6 @@ function show6() {
     hideSec7();
     die.style.width = "60%";
     die.style.height = "70%";
-    die.style.left = "40%";
-    die.style.top = "40%";
     die.style.opacity = "100%";
   }
 }
