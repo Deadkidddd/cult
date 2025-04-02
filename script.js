@@ -277,7 +277,7 @@ for(let i = 0; i < catSlides.length; i++) {
   document.getElementById("dropdown_title").onclick = {
     showDropdown;
     var number = number + 1;
-  } 
+  };
 }
 
 
