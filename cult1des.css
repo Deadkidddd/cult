@@ -32,7 +32,6 @@
   z-index: 16;
 }
 .cults_1_p{
-  width: 80%;
   position: absolute;
   margin-top: 3%;
   text-align: center;
@@ -46,18 +45,23 @@
 }
 #practices{
   top: 25%;
+  width: 40%;
 }
 #practices2{
-  top: 35%;
+  top: 30%;
+  width: 80%;
 }
 #practices3{
-  top: 50%;
+  top: 40%;
+  width: 80%;
 }
 #practices4{
-  top: 65%;
+  top: 50;
+  width: 80%;
 }
 #practices5{
-  top: 80%;
+  top: 60%;
+  width: 80%;
 }
 
 #reasons_btn{
