@@ -109,7 +109,7 @@
 #ends_1_p{
   width: 40%;
   top: 25%;
-  place-self: center;
+  float: center;
 }
 
 #ends_2_p{
