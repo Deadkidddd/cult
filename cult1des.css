@@ -32,6 +32,7 @@
   z-index: 16;
 }
 .cults_1_p{
+  width: 80%;
   position: absolute;
   margin-top: 3%;
   text-align: center;
@@ -44,24 +45,19 @@
   color:rgb(200, 255, 236);
 }
 #practices{
-  top: 25%;
-  width: 40%;
+  top: 30%;
 }
 #practices2{
-  top: 30%;
-  width: 80%;
+  top: 45%;
 }
 #practices3{
-  top: 40%;
-  width: 80%;
+  top: 50%;
 }
 #practices4{
-  top: 50;
-  width: 80%;
+  top: 65;
 }
 #practices5{
-  top: 60%;
-  width: 80%;
+  top: 80%;
 }
 
 #reasons_btn{
@@ -93,7 +89,6 @@
 }
 
 #ends_1{
-  width: 25%;
   position: absolute;
   right: 4%;
   margin-top: 1%;
@@ -102,21 +97,26 @@
 }
 
 #ends_1_p{
+  width: 5.25%;
   top: 25%;
 }
 
 #ends_2_p{
+  width: 25%;
   top: 35%;
 }
 #ends_3_p{
+  width: 25%;
   top: 50%;
 }
 
 #ends_4_p{
+  width: 25%;
   top: 70%;
 }
 
 #ends_5_p{
+  width: 25%;
   top: 80%;
 }
 
