@@ -117,15 +117,18 @@
 
 #die{
   position: absolute;
-  float: center;
+  align-self: center;
   width: 60%;
   height: 70%;
 }
 
 @keyframes im_dying_lmao{
-  25%{width: 30%; height: 40%;}
-  50%{width: 40%; height: 50%;}
-  75%{width: 50%; height: 60%;}
+  0%{width: 30%; height: 40%;}
+  16%{width: 35%; height: 45%;}
+  33%{width: 40%; height: 50%;}
+  49%{width: 45%; height: 55%;}
+  66%{width: 50%; height: 60%;}
+  82%{width: 55%; height: 65%;}
   100%{width: 60%; height: 70%;}
 }
 
