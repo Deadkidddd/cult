@@ -117,7 +117,8 @@
 
 #die{
   position: absolute;
-  right: 40%;
+  right: 20%;
+  top: 5%;
   width: 60%;
   height: 70%;
 }
