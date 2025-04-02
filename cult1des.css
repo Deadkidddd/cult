@@ -100,7 +100,6 @@
 #ends_1{
   width: 25%;
   position: absolute;
-  right: 4%;
   margin-top: 1%;
   font-size: 17px;
   z-index: 16;
@@ -109,25 +108,30 @@
 #ends_1_p{
   width: 40%;
   top: 25%;
+  place-self: center;
 }
 
 #ends_2_p{
   width: 80%;
   top: 35%;
+  right: 4%;
 }
 #ends_3_p{
   width: 80%;
   top: 50%;
+  right: 4%;
 }
 
 #ends_4_p{
   width: 80%;
   top: 70%;
+  right: 4%;
 }
 
 #ends_5_p{
   width: 80%;
   top: 80%;
+  right: 4%;
 }
 
 .giveup{
