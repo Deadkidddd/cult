@@ -64,8 +64,8 @@ function showDropdown(){
 if(dropdownMenu && background){
 let catSlides = document.getElementsByClassName("cat_slideshow");
 for(let i = 0; i < catSlides.length; i++) {
-  catSlides[i].onclick = showDropdown();;
-  document.getElementById("dropdown_title").onclick = showDropdown();
+  catSlides[i].onclick = showDropdown;
+  document.getElementById("dropdown_title").onclick = showDropdown;
 };}
 
 //img functions
