@@ -50,19 +50,20 @@ function showSlides() {
   setTimeout(showSlides, 2000);
 }
 
+function showDropdown(){
+  let dropdownMenu = document.getElementById("dropdown");
+  let background = document.getElementById("background");
+  dropdownMenu.style.display = "block";
+  background.style.display = "block";
+}
+
 //Menu
   //Dropdowns
-let dropdownMenu = document.getElementById("dropdown");
-let background = document.getElementById("background");
-
 // Add dropdown triggers only if elements exist
 let catSlides = document.getElementsByClassName("cat_slideshow");
 for(let i = 0; i < catSlides.length; i++) {
-  catSlides[i].onclick = showDropdown;
-  document.getElementById("dropdown_title").onclick = {
-    dropdownMenu.style.display = "block";
-    background.style.display = "block";
-  };
+  catSlides[i].onclick = showDropdown();;
+  document.getElementById("dropdown_title").onclick = showDropdown();
 }
 
 //img functions
