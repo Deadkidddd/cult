@@ -377,6 +377,9 @@ function show7() {
   }
   else{
     hideSec8();
+    die.style.width = "60%";
+    die.style.height = "70%";
+    die.style.opacity = "100%";
   }
 }
 //shows section number 3, page 3 under certain conditions
@@ -392,6 +395,9 @@ function show8() {
   }
   else{
     hideSec9();
+    die.style.width = "60%";
+    die.style.height = "70%";
+    die.style.opacity = "100%";
   };
 }
 
