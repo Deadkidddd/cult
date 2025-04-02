@@ -115,6 +115,13 @@
   top: 80%;
 }
 
+#die{
+  position: absolute;
+  float: center;
+  width: 60%;
+  height: 70%;
+}
+  
 
 @keyframes in_out_colors{
   7.1%{background-color: red; opacity: 100%;}
