@@ -260,14 +260,23 @@ let dropdownMenu = document.getElementById("dropdown");
 let background = document.getElementById("background");
 
 function showDropdown() {
-  evenOrOdd();
-  if(numberType === `odd`) {
     dropdownMenu.style.display = "block";
     background.style.display = "block";
   };
-  else{
+function hideDropdown{
     dropdownMenu.style.display = "none";
     background.style.display = "none";
+  };
+}
+
+//Hide or Show
+function showOrHideMenu() {
+  evenOrOdd();
+  if(numberType === 'even'){
+    showDropdown();
+  };
+  if(numberType === 'odd'){
+    hideDropdown();
   };
 }
 
@@ -276,8 +285,8 @@ let catSlides = document.getElementsByClassName("cat_slideshow");
 for(let i = 0; i < catSlides.length; i++) {
   catSlides[i].onclick = showDropdown;
   document.getElementById("dropdown_title").onclick = {
-    showDropdown;
     var number = number + 1;
+    showOrHideMenu();
   };
 }
 
