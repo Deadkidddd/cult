@@ -50,9 +50,10 @@ function showSlides() {
   setTimeout(showSlides, 2000);
 }
 
+let dropdownMenu = document.getElementById("dropdown");
+let background = document.getElementById("background");
+
 function showDropdown(){
-  let dropdownMenu = document.getElementById("dropdown");
-  let background = document.getElementById("background");
   dropdownMenu.style.display = "block";
   background.style.display = "block";
 }
@@ -60,11 +61,12 @@ function showDropdown(){
 //Menu
   //Dropdowns
 // Add dropdown triggers only if elements exist
+if(dropdownMenu && background){
 let catSlides = document.getElementsByClassName("cat_slideshow");
 for(let i = 0; i < catSlides.length; i++) {
   catSlides[i].onclick = showDropdown();;
   document.getElementById("dropdown_title").onclick = showDropdown();
-}
+};}
 
 //img functions
 function showImgs1() {
