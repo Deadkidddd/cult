@@ -437,10 +437,15 @@ function cult2Page() {
   let howbtn = document.getElementById("how_btn");
   let leaders2 = document.getElementById("other_cults_btn");
   let ends2 = document.getElementById("conformityy_btn");
-
+  let die = document.getElementById("die");
   if(howbtn) howbtn.onclick = () => {
     number = number + 1;
-    show6();};
+    show6();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.left = "4%";
+    die.style.top = "70%";
+    };
   if(leaders2) leaders2.onclick = () => {
     hideSec7();
     number = number + 1;
