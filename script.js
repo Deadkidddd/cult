@@ -55,22 +55,13 @@ function showSlides() {
 let dropdownMenu = document.getElementById("dropdown");
 let background = document.getElementById("background");
 
-function showDropdown() {
-    dropdownMenu.style.display = "block";
-    background.style.display = "block";
-  };
-function hideDropdown{
-    dropdownMenu.style.display = "none";
-    background.style.display = "none";
-  };
-}
-
 // Add dropdown triggers only if elements exist
 let catSlides = document.getElementsByClassName("cat_slideshow");
 for(let i = 0; i < catSlides.length; i++) {
   catSlides[i].onclick = showDropdown;
   document.getElementById("dropdown_title").onclick = {
-    showDropdown();
+    dropdownMenu.style.display = "block";
+    background.style.display = "block";
   };
 }
 
