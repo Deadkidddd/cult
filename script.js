@@ -33,6 +33,47 @@ document.getElementById("cult_2_screen").onclick = function(){
   setTimeout(function() { window.location.href = "cult2description.html"; }, 1000);
 }  
 
+//slideshow
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("cat_slideshow");
+  if(slides.length === 0) return;
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
+
+//Menu
+  //Dropdowns
+let dropdownMenu = document.getElementById("dropdown");
+let background = document.getElementById("background");
+
+function showDropdown() {
+    dropdownMenu.style.display = "block";
+    background.style.display = "block";
+  };
+function hideDropdown{
+    dropdownMenu.style.display = "none";
+    background.style.display = "none";
+  };
+}
+
+// Add dropdown triggers only if elements exist
+let catSlides = document.getElementsByClassName("cat_slideshow");
+for(let i = 0; i < catSlides.length; i++) {
+  catSlides[i].onclick = showDropdown;
+  document.getElementById("dropdown_title").onclick = {
+    showDropdown();
+  };
+}
+
 //img functions
 function showImgs1() {
   document.getElementById("tools").style.opacity = "1";
@@ -236,61 +277,6 @@ function evenOrOdd() {
     numberType = 'odd';
   };
 }
-
-//slideshow
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let slides = document.getElementsByClassName("cat_slideshow");
-  if(slides.length === 0) return;
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000);
-}
-
-//Menu
-  //Dropdowns
-let dropdownMenu = document.getElementById("dropdown");
-let background = document.getElementById("background");
-
-function showDropdown() {
-    dropdownMenu.style.display = "block";
-    background.style.display = "block";
-  };
-function hideDropdown{
-    dropdownMenu.style.display = "none";
-    background.style.display = "none";
-  };
-}
-
-//Hide or Show
-function showOrHideMenu() {
-  evenOrOdd();
-  if(numberType === 'even'){
-    showDropdown();
-  };
-  if(numberType === 'odd'){
-    hideDropdown();
-  };
-}
-
-// Add dropdown triggers only if elements exist
-let catSlides = document.getElementsByClassName("cat_slideshow");
-for(let i = 0; i < catSlides.length; i++) {
-  catSlides[i].onclick = showDropdown;
-  document.getElementById("dropdown_title").onclick = {
-    var number = number + 1;
-    showOrHideMenu();
-  };
-}
-
-
 
 //Shows section number 1, page 1 under certain conditions
 function show() {
