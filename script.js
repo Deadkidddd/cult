@@ -31,8 +31,7 @@ document.getElementById("cult_1_screen").onclick = function(){
 document.getElementById("cult_2_screen").onclick = function(){
   glitch();
   setTimeout(function() { window.location.href = "cult2description.html"; }, 1000);
-}
-  
+}  
 
 //slideshow
 let slideIndex = 0;
@@ -49,23 +48,6 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000);
-}
-
-let dropdownMenu = document.getElementById("dropdown");
-let background = document.getElementById("background");
-
-function showDropdown() {
-  if(dropdownMenu && background) {
-    dropdownMenu.style.display = "block";
-    background.style.display = "block";
-  };
-}
-
-// Add dropdown triggers only if elements exist
-let catSlides = document.getElementsByClassName("cat_slideshow");
-for(let i = 0; i < catSlides.length; i++) {
-  catSlides[i].onclick = showDropdown;
-  document.getElementById("dropdown_title").onclick = showDropdown; 
 }
 
 //img functions
@@ -271,6 +253,34 @@ function evenOrOdd() {
     numberType = 'odd';
   };
 }
+
+//Menu
+  //Dropdowns
+let dropdownMenu = document.getElementById("dropdown");
+let background = document.getElementById("background");
+
+function showDropdown() {
+  evenOrOdd();
+  if(numberType === `odd`) {
+    dropdownMenu.style.display = "block";
+    background.style.display = "block";
+  };
+  else{
+    dropdownMenu.style.display = "none";
+    background.style.display = "none";};
+}
+
+// Add dropdown triggers only if elements exist
+let catSlides = document.getElementsByClassName("cat_slideshow");
+for(let i = 0; i < catSlides.length; i++) {
+  catSlides[i].onclick = showDropdown;
+  document.getElementById("dropdown_title").onclick = {
+    showDropdown;
+    var number = number + 1;
+  } 
+}
+
+
 
 //Shows section number 1, page 1 under certain conditions
 function show() {
