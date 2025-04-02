@@ -45,16 +45,16 @@
   color:rgb(200, 255, 236);
 }
 #practices{
-  top: 30%;
+  top: 25%;
 }
 #practices2{
-  top: 45%;
+  top: 35%;
 }
 #practices3{
   top: 50%;
 }
 #practices4{
-  top: 65;
+  top: 70;
 }
 #practices5{
   top: 80%;
@@ -89,6 +89,7 @@
 }
 
 #ends_1{
+  width: 25%;
   position: absolute;
   right: 4%;
   margin-top: 1%;
