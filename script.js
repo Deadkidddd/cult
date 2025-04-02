@@ -444,16 +444,30 @@ function cult2Page() {
     die.style.width = "20%";
     die.style.height = "30%";
     die.style.left = "4%";
-    die.style.top = "20%";
+    die.style.top = "22%";
+    die.style.opacity = "60%";
     };
   if(leaders2) leaders2.onclick = () => {
     hideSec7();
     number = number + 1;
-    show7();};
+    show7();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.right = "4%";
+    die.style.top = "80%";
+    die.style.opacity = "60%";
+  };
   if(ends2) ends2.onclick = () => {
     hideSec8();
     number = number + 1;
-    show8();};
+    show8();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.left = "40%";
+    die.style.top = "40%";
+    die.style.opacity = "50%";
+    die.style.animation = "";
+  };
 }
 
 function initConclusionPage() {
