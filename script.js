@@ -466,7 +466,7 @@ function cult2Page() {
     die.style.left = "40%";
     die.style.top = "40%";
     die.style.opacity = "50%";
-    die.style.animation = "";
+    die.style.animation = "im_dying_lmao 5s 1";
   };
 }
 
