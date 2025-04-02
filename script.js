@@ -444,7 +444,7 @@ function cult2Page() {
     die.style.width = "20%";
     die.style.height = "30%";
     die.style.left = "4%";
-    die.style.top = "70%";
+    die.style.top = "20%";
     };
   if(leaders2) leaders2.onclick = () => {
     hideSec7();
