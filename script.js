@@ -33,23 +33,6 @@ document.getElementById("cult_2_screen").onclick = function(){
   setTimeout(function() { window.location.href = "cult2description.html"; }, 1000);
 }  
 
-//slideshow
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let slides = document.getElementsByClassName("cat_slideshow");
-  if(slides.length === 0) return;
-
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000);
-}
-
 //img functions
 function showImgs1() {
   document.getElementById("tools").style.opacity = "1";
@@ -254,6 +237,23 @@ function evenOrOdd() {
   };
 }
 
+//slideshow
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("cat_slideshow");
+  if(slides.length === 0) return;
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
+
 //Menu
   //Dropdowns
 let dropdownMenu = document.getElementById("dropdown");
@@ -267,7 +267,8 @@ function showDropdown() {
   };
   else{
     dropdownMenu.style.display = "none";
-    background.style.display = "none";};
+    background.style.display = "none";
+  };
 }
 
 // Add dropdown triggers only if elements exist
