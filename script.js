@@ -348,41 +348,22 @@ function show5() {
 
 //Shows section number 1, page 3 under certain conditions
 function show6(){
-  let die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec7();
-    die.style.width = "20%";
-    die.style.height = "30%";
-    die.style.left = "4%";
-    die.style.top = "22%";
-    die.style.opacity = "60%";
   }
   else{
     hideSec7();
-    die.style.width = "60%";
-    die.style.height = "70%";
-    die.style.opacity = "100%";
   }
 }
 //shows section number 2, page 3 under certain conditions
 function show7() {
-  //const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec8();
-    /*die.style.width = "20%";
-    die.style.height = "30%";
-    die.style.right = "4%";
-    die.style.top = "75%";
-    die.style.opacity = "60%";*/
   }
   else{
     hideSec8();
-    /*die.style.width = "60%";
-    die.style.height = "70%";
-    die.style.opacity = "100%";
-    die.style.top: "70%";*/
   }
 }
 //shows section number 3, page 3 under certain conditions
@@ -391,17 +372,9 @@ function show8() {
   evenOrOdd();
   if (numberType === 'odd') {
     showSec9();
-    die.style.width = "20%";
-    die.style.height = "30%";
-    die.style.left = "4%";
-    die.style.top = "22%";
-    die.style.opacity = "60%";
   }
   else{
     hideSec9();
-    die.style.width = "60%";
-    die.style.height = "70%";
-    die.style.opacity = "100%";
   }
 }
 
@@ -435,7 +408,6 @@ function cult1Page() {
   let reasonsbtn = document.getElementById("reasons_btn");
   let ends1 = document.getElementById("ends_1");
 
-
   if (practicesbtn) {
     practicesbtn.onclick = () => { 
       number = number + 1;
@@ -465,20 +437,41 @@ function cult2Page() {
   let howbtn = document.getElementById("how_btn");
   let leaders2 = document.getElementById("other_cults_btn");
   let ends2 = document.getElementById("conformityy_btn");
+  let die = document.getElementById("die");
   
   if(howbtn) howbtn.onclick = () => {
     number = number + 1;
     show6();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.left = "4%";
+    die.style.top = "22%";
+    die.style.opacity = "60%";
     };
   if(leaders2) leaders2.onclick = () => {
     hideSec7();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.left = "4%";
+    die.style.top = "22%";
+    die.style.opacity = "60%";
     number = number + 1;
     show7();
   };
   if(ends2) ends2.onclick = () => {
     hideSec8();
+    die.style.width = "20%";
+    die.style.height = "30%";
+    die.style.left = "4%";
+    die.style.top = "22%";
+    die.style.opacity = "60%";
     number = number + 1;
     show8();
+  };
+  else{
+    die.style.width = "60%";
+    die.style.height = "70%";
+    die.style.opacity = "100%";
   };
 }
 
