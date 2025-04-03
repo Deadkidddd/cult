@@ -464,7 +464,6 @@ function cult2Page() {
   let howbtn = document.getElementById("how_btn");
   let leaders2 = document.getElementById("other_cults_btn");
   let ends2 = document.getElementById("conformityy_btn");
-  let die = document.getElementById("die");
   
   if(howbtn) howbtn.onclick = () => {
     number = number + 1;
