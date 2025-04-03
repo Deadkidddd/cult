@@ -393,7 +393,7 @@ function show8() {
     die.style.left = "40%";
     die.style.top = "40%";
     die.style.opacity = "50%";
-  }
+  };
   else{
     hideSec9();
     die.style.width = "60%";
