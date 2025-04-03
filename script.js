@@ -367,15 +367,15 @@ function show6(){
 }
 //shows section number 2, page 3 under certain conditions
 function show7() {
-  //const die = document.getElementById("die");
+  const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec8();
-    /*die.style.width = "20%";
+    die.style.width = "20%";
     die.style.height = "30%";
     die.style.right = "4%";
     die.style.top = "75%";
-    die.style.opacity = "60%";*/
+    die.style.opacity = "60%";
   }
   else{
     hideSec8();
