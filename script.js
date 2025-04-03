@@ -379,10 +379,10 @@ function show7() {
   }
   else{
     hideSec8();
-    /*die.style.width = "60%";
+    die.style.width = "60%";
     die.style.height = "70%";
     die.style.opacity = "100%";
-    die.style.top: "70%";*/
+    die.style.top: "70%";
   }
 }
 //shows section number 3, page 3 under certain conditions
