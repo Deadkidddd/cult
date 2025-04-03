@@ -347,8 +347,8 @@ function show5() {
 }
 
 //Shows section number 1, page 3 under certain conditions
-const die = document.getElementById("die");
-function show6() {
+function show6(){
+  const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec7();
@@ -367,6 +367,7 @@ function show6() {
 }
 //shows section number 2, page 3 under certain conditions
 function show7() {
+  const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec8();
@@ -386,6 +387,7 @@ function show7() {
 }
 //shows section number 3, page 3 under certain conditions
 function show8() {
+  const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec9();
