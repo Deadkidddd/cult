@@ -21,6 +21,7 @@ body{
   top: 4%;
   left: 75%;
   z-index: 20;
+  display: none;
 }
 
 #cat_slideshow_2{
@@ -30,6 +31,7 @@ body{
   top: 4%;
   left: 75%;
   z-index: 20;
+  display: none;
 }
 
 #cat_slideshow_3{
@@ -39,6 +41,7 @@ body{
   top: 4%;
   left: 75%;
   z-index: 20;
+  display: none;
 }
 
 #dropdown{
