@@ -347,6 +347,7 @@ function show5() {
 }
 
 //Shows section number 1, page 3 under certain conditions
+const die = document.getElementById("die");
 function show6() {
   evenOrOdd();
   if (numberType === 'odd') {
