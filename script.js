@@ -348,7 +348,7 @@ function show5() {
 
 //Shows section number 1, page 3 under certain conditions
 function show6(){
-  const die = document.getElementById("die");
+  let die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec7();
@@ -367,35 +367,35 @@ function show6(){
 }
 //shows section number 2, page 3 under certain conditions
 function show7() {
-  const die = document.getElementById("die");
+  //const die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec8();
-    die.style.width = "20%";
+    /*die.style.width = "20%";
     die.style.height = "30%";
     die.style.right = "4%";
     die.style.top = "75%";
-    die.style.opacity = "60%";
+    die.style.opacity = "60%";*/
   }
   else{
     hideSec8();
-    die.style.width = "60%";
+    /*die.style.width = "60%";
     die.style.height = "70%";
     die.style.opacity = "100%";
-    die.style.top: "70%";
+    die.style.top: "70%";*/
   }
 }
 //shows section number 3, page 3 under certain conditions
 function show8() {
-  //const die = document.getElementById("die");
+  let die = document.getElementById("die");
   evenOrOdd();
   if (numberType === 'odd') {
     showSec9();
-    /*die.style.width = "20%";
+    die.style.width = "20%";
     die.style.height = "30%";
     die.style.left = "40%";
     die.style.top = "40%";
-    die.style.opacity = "50%";*/
+    die.style.opacity = "50%";
   }
   else{
     hideSec9();
