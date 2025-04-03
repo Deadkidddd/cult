@@ -339,11 +339,11 @@ function show5() {
   if (numberType === 'odd') {
     showSec6();
     showImgs3();
-  };
+  }
   else{
     hideSec6();
     hideImgs3();
-  };
+  }
 }
 
 //Shows section number 1, page 3 under certain conditions
@@ -357,13 +357,13 @@ function show6(){
     die.style.left = "4%";
     die.style.top = "22%";
     die.style.opacity = "60%";
-  };
+  }
   else{
     hideSec7();
     die.style.width = "60%";
     die.style.height = "70%";
     die.style.opacity = "100%";
-  };
+  }
 }
 //shows section number 2, page 3 under certain conditions
 function show7() {
@@ -376,7 +376,7 @@ function show7() {
     die.style.right = "4%";
     die.style.top = "75%";
     die.style.opacity = "60%";
-  };
+  }
   else{
     hideSec8();
     die.style.width = "60%";
