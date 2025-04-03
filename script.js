@@ -393,16 +393,15 @@ function show8() {
     showSec9();
     die.style.width = "20%";
     die.style.height = "30%";
-    die.style.left = "40%";
-    die.style.top = "40%";
-    die.style.opacity = "50%";
+    die.style.left = "4%";
+    die.style.top = "22%";
+    die.style.opacity = "60%";
   }
   else{
     hideSec9();
-    /*die.style.width = "60%";
+    die.style.width = "60%";
     die.style.height = "70%";
     die.style.opacity = "100%";
-    die.style.top = "70%";*/
   }
 }
 
