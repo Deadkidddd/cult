@@ -382,7 +382,7 @@ function show7() {
     die.style.height = "70%";
     die.style.opacity = "100%";
     die.style.top: "70%";
-  };
+  }
 }
 //shows section number 3, page 3 under certain conditions
 function show8() {
@@ -394,14 +394,14 @@ function show8() {
     die.style.left = "40%";
     die.style.top = "40%";
     die.style.opacity = "50%";
-  };
+  }
   else{
     hideSec9();
     die.style.width = "60%";
     die.style.height = "70%";
     die.style.opacity = "100%";
     die.style.top = "70%";
-  };
+  }
 }
 
 //Performs button showing and dissapearing operations
